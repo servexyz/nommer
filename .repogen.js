@@ -4,8 +4,11 @@ const config = {
   repositories: [
     {
       servexyz: 'nommer-lib',
+    },
+    {
       servexyz: 'nommer-cli',
     },
   ],
 };
-module.exports = config;
+
+module.exports = { config };
